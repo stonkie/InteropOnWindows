@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "NativeCom.CSharp": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}

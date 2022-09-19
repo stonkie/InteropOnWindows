@@ -1,0 +1,30 @@
+import "oaidl.idl";
+import "ocidl.idl";
+
+
+[
+	uuid(0c72d0b6-61fa-419a-bf83-6164a296cd71),
+	version(1.0),
+]
+library MathsModule
+{
+	importlib("stdole2.tlb");
+
+	[
+        odl,
+        uuid(36627c48-4611-459b-9e93-beedb3ddf04c),
+		version(1.0),
+        oleautomation,
+    ]
+	interface IMaths : IUnknown {
+		HRESULT _stdcall PlusOne([in] int input, [out] int* output);
+	}
+
+	[
+		uuid(b643227e-beb7-418f-a006-47568786cccf),
+	]
+	coclass Maths
+	{
+		[default] interface IMaths;
+	};
+};

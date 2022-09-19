@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+	<assemblyIdentity
+		type="win32"
+		name="NativeCom.Cpp.sxs"
+		version="1.0.0.0" />
+
+	<file name="NativeCom.Cpp.sxs.dll">
+		<comClass
+			description="Maths"
+			clsid="{B643227E-BEB7-418F-A006-47568786CCCF}"
+			threadingModel="Both"
+			progid="NativeCom.Cpp.Maths"
+			tlbid="{36627C48-4611-459B-9E93-BEEDB3DDF04C}"/>
+
+		<typelib tlbid="{36627C48-4611-459B-9E93-BEEDB3DDF04C}"
+		         version="1.0" 
+		         helpdir="" />
+	</file>
+</assembly>

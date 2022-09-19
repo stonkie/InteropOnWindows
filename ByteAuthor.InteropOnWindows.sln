@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PInvoke.Cpp", "PInvoke.Cpp\PInvoke.Cpp.vcxproj", "{30703DC1-7053-4181-810F-6CB881E4C034}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PInvoke.CSharp", "PInvoke.CSharp\PInvoke.CSharp.csproj", "{A6CA650B-FCB9-40E7-B693-DE9CC57DD617}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NativeCom.Cpp", "NativeCom.Cpp\NativeCom.Cpp.vcxproj", "{125AAC1A-DBA5-4455-8827-7E3E51A7D6FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NativeCom.CSharp", "NativeCom.CSharp\NativeCom.CSharp.csproj", "{389FA5B1-75D4-483A-BFE7-BCC5E7E9A59B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30703DC1-7053-4181-810F-6CB881E4C034}.Debug|x64.ActiveCfg = Debug|x64
+		{30703DC1-7053-4181-810F-6CB881E4C034}.Debug|x64.Build.0 = Debug|x64
+		{30703DC1-7053-4181-810F-6CB881E4C034}.Release|x64.ActiveCfg = Release|x64
+		{30703DC1-7053-4181-810F-6CB881E4C034}.Release|x64.Build.0 = Release|x64
+		{A6CA650B-FCB9-40E7-B693-DE9CC57DD617}.Debug|x64.ActiveCfg = Debug|x64
+		{A6CA650B-FCB9-40E7-B693-DE9CC57DD617}.Debug|x64.Build.0 = Debug|x64
+		{A6CA650B-FCB9-40E7-B693-DE9CC57DD617}.Release|x64.ActiveCfg = Release|Any CPU
+		{A6CA650B-FCB9-40E7-B693-DE9CC57DD617}.Release|x64.Build.0 = Release|Any CPU
+		{125AAC1A-DBA5-4455-8827-7E3E51A7D6FE}.Debug|x64.ActiveCfg = Debug|x64
+		{125AAC1A-DBA5-4455-8827-7E3E51A7D6FE}.Debug|x64.Build.0 = Debug|x64
+		{125AAC1A-DBA5-4455-8827-7E3E51A7D6FE}.Release|x64.ActiveCfg = Release|x64
+		{125AAC1A-DBA5-4455-8827-7E3E51A7D6FE}.Release|x64.Build.0 = Release|x64
+		{389FA5B1-75D4-483A-BFE7-BCC5E7E9A59B}.Debug|x64.ActiveCfg = Debug|x64
+		{389FA5B1-75D4-483A-BFE7-BCC5E7E9A59B}.Debug|x64.Build.0 = Debug|x64
+		{389FA5B1-75D4-483A-BFE7-BCC5E7E9A59B}.Release|x64.ActiveCfg = Release|Any CPU
+		{389FA5B1-75D4-483A-BFE7-BCC5E7E9A59B}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3AB883D1-2786-4B79-BE7D-70FE04525921}
+	EndGlobalSection
+EndGlobal

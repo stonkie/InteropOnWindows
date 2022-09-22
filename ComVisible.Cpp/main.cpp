@@ -18,26 +18,21 @@ class __declspec(uuid("{0a2784c8-3eb1-4566-9f7f-9b4fbe2800bf}")) VeryClassy : pu
 int main()
 {
 	const HRESULT initResult = CoInitializeEx(nullptr, COINIT_MULTITHREADED);
-
-	std::cout << "Init : " << initResult << "\r\n";
-
+	
 	if (initResult != S_OK) return initResult;
 	
 	CComPtr<IVeryClassy> classy;
 	const HRESULT createResult = classy.CoCreateInstance(__uuidof(VeryClassy));
-
-	std::cout << "Create : " << createResult << "\r\n";
-
+	
 	if (createResult != S_OK) return createResult;
 
+	int operand = 17;
 	int answer = 0;
-	const HRESULT operationResult = classy->PlusOne(17, &answer);
+	const HRESULT operationResult = classy->PlusOne(operand, &answer);
 
 	if (operationResult != S_OK) return operationResult;
-
-	std::cout << "Operation : " << createResult << "\r\n";
-
-	std::cout << "And the answer is... " << answer << "\r\n";
+	
+	std::cout << "When we PlusOne " << operand << ", we get " << answer << "\r\n";
 
 	classy.Release();
 

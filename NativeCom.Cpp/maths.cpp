@@ -3,6 +3,6 @@
 
 HRESULT Maths::PlusOne(int input, int* output)
 {
-	MessageBoxA(NULL, "Something just happened", "COM sample", MB_OK);
+	*output = input + 1;
 	return S_OK;
 }

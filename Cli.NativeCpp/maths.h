@@ -1,6 +1,5 @@
 #pragma once
 
-
 class maths
 {
 public:

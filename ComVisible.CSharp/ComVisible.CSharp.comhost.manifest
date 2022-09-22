@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly manifestVersion="1.0" xmlns="urn:schemas-microsoft-com:asm.v1">
+  <assemblyIdentity version="1.0.0.0" name="ComVisible.CSharp.comhost"/>
+  
+  <file name="ComVisible.CSharp.comhost.dll">
+	  <comClass
+		  description="VeryClassy"
+		  clsid="{0a2784c8-3eb1-4566-9f7f-9b4fbe2800bf}"
+		  threadingModel="Both"
+		  tlbid="{fe7b93df-048c-40bb-ba50-e9bd0e3ea1ba}"/>
+
+	  <typelib tlbid="{fe7b93df-048c-40bb-ba50-e9bd0e3ea1ba}"
+	           version="1.0" 
+	           helpdir="" />
+  </file>
+
+</assembly>

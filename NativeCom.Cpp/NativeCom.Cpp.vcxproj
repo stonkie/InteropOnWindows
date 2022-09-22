@@ -134,7 +134,7 @@
       <ModuleDefinitionFile>NativeCom.Cpp.sxs.def</ModuleDefinitionFile>
     </Link>
     <PostBuildEvent>
-      <Command>tlbimp.exe $(SolutionDir)obj\x64\$(Configuration)\maths.tlb /machine:Agnostic /out:$(SolutionDir)bin\x64\$(Configuration)\$(ProjectName).interop.dll</Command>
+      <Command>tlbimp.exe x64\$(Configuration)\$(ProjectName).tlb /machine:Agnostic /out:$(SolutionDir)bin\x64\$(Configuration)\$(ProjectName).interop.dll</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -171,7 +171,7 @@
   </ItemGroup>
   <ItemGroup>
     <Midl Include="maths.idl">
-      <TypeLibraryName>$(SolutionDir)obj\x64\$(Configuration)\maths.tlb</TypeLibraryName>
+      <TypeLibraryName>x64\$(Configuration)\$(ProjectName).tlb</TypeLibraryName>
     </Midl>
   </ItemGroup>
   <ItemGroup>

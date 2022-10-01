@@ -1,7 +1,7 @@
 # InteropOnWindows
 These are samples for interop between C# (dotnet 6) and C++ (C++ 20).
 
-I used them in a talk given at [ÉTS](https://www.etsmtl.ca/) and [Polytechnique Montréal](https://www.polymtl.ca/) to discuss various options as part of a conference given by the Video team at [Genetec](https://www.genetec.com/).
+I used them in a talk I gave at [ÉTS](https://www.etsmtl.ca/) and [Polytechnique Montréal](https://www.polymtl.ca/) to discuss various options as part of a conference given by the Video team from [Genetec](https://www.genetec.com/).
 
 ## Calling C++ from C#
 We have example of each of these in the Archiver's codebase. Each has its own tradeoffs.

@@ -1,5 +1,7 @@
 ﻿using PInvoke.CSharp;
 
-Maths.Do();
+//Maths.Do();
 
-Strings.Do();
+//Strings.Do();
+
+VerySaferStrings.Do();

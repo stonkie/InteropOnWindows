@@ -66,7 +66,7 @@
       <AdditionalLibraryDirectories>$(ProgramFiles)\dotnet\packs\Microsoft.NETCore.App.Host.win-x64\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <PostBuildEvent>
-      <Command>COPY "$(ProgramFiles)\dotnet\packs\Microsoft.NETCore.App.Host.win-x64\6.0.6\runtimes\win-x64\native\nethost.dll" "$(OutDir)"</Command>
+      <Command>COPY "$(ProgramFiles)\dotnet\packs\Microsoft.NETCore.App.Host.win-x64\6.0.10\runtimes\win-x64\native\nethost.dll" "$(OutDir)"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -90,7 +90,7 @@
       <AdditionalLibraryDirectories>$(ProgramFiles)\dotnet\packs\Microsoft.NETCore.App.Host.win-x64\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <PostBuildEvent>
-      <Command>COPY "$(ProgramFiles)\dotnet\packs\Microsoft.NETCore.App.Host.win-x64\6.0.6\runtimes\win-x64\native\nethost.dll" "$(OutDir)"</Command>
+      <Command>COPY "$(ProgramFiles)\dotnet\packs\Microsoft.NETCore.App.Host.win-x64\6.0.10\runtimes\win-x64\native\nethost.dll" "$(OutDir)"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>

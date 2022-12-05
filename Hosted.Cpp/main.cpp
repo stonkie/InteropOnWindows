@@ -1,14 +1,14 @@
 // Could be copied into our project...
 #include <filesystem>
-#include <6.0.6\runtimes\win-x64\native\nethost.h>
-#include <6.0.6\runtimes\win-x64\native\hostfxr.h>
-#include <6.0.6\runtimes\win-x64\native\coreclr_delegates.h>
+#include <6.0.10\runtimes\win-x64\native\nethost.h>
+#include <6.0.10\runtimes\win-x64\native\hostfxr.h>
+#include <6.0.10\runtimes\win-x64\native\coreclr_delegates.h>
 
 #include <string>
 #include <iostream>
 #include <windows.h>
 
-#pragma comment(lib, "6.0.6/runtimes/win-x64/native/nethost.lib")
+#pragma comment(lib, "6.0.10/runtimes/win-x64/native/nethost.lib")
 // Dll is referenced directly and has copy-local
 
 // Inspired by : https://learn.microsoft.com/en-us/dotnet/core/tutorials/netcore-hosting

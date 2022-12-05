@@ -12,6 +12,11 @@ We have example of each of these in the Archiver's codebase. Each has its own tr
 - Using C++ CLI : Run Cli.CSharp which calls into Cli.ManagedCpp and then Cli.NativeCpp
   - This has a few limitations, the most important being that the Managed C++ project is limited to C++17. It statically links the C++20 project, so it needs those "#include" headers to be C++17 compatible and it relies on ABI compatibility between the two C++ versions.
 
+### Bonus : Calling Rust from C#
+We don't have any Rust in the Archiver... At least not yet! But there's a quick sample anyways.
+
+- Run PInvoke.CSharp and it will call into pinvoke_rust
+
 ## Calling C# from C++
 I would only recommend the ComVisible, but I included hosting a runtime for completedness.
 

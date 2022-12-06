@@ -8,7 +8,7 @@ void DoSomeStrings()
 // Call into the C++ with some strings in and out
     var appended = strings.Append("Manage", 'd', 5);
 
-    Console.WriteLine($"Managedly {appended}");
+     Console.WriteLine($"Managedly {appended}");
 }
 
 void DoSomeMaths()
@@ -27,6 +27,6 @@ void DoSomeMaths()
 
 
 
-DoSomeMaths();
+// DoSomeMaths();
 
 DoSomeStrings();
